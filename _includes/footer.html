@@ -1,0 +1,26 @@
+<div id="footer" class="container-fluid">
+    <ul id="links">
+        {% if site.github_url %}
+        <li>
+            <a id="link-github" href="http://github.com/{{ site.github_url.username }}" target="_blank">
+                <span class="sr-only">github</span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.twitter %}
+        <li>
+            <a id="link-twitter" href="http://twitter.com/{{ site.twitter.username }}" target="_blank">
+                <span class="sr-only">twitter</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+    <ul id="footer-menu">
+        <li><a href="//prforest.ga">홍보숲</a></li>
+        <li><a href="//prforest.ga/guide">가이드</a></li>
+        <li><a href="https://discord.gg/kbWbVU4">공식 서버 들어가기</a></li>
+    </ul>
+    <p id="copyright">
+        © 2020 📡홍보숲, All rights reserved.
+    </p>
+</div><!--#footer-->

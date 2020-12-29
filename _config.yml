@@ -1,0 +1,58 @@
+title: EndBot 공식 블로그
+email: endbot4023@gmail.com
+description: EndBot 공식 블로그
+baseurl: ''
+url: 'https://blog.ends.studio'
+timezone: Asia/Seoul 
+
+repository: Tim232/blog.ends.studio
+
+permalink: /:year/:month/:day/:title/
+
+excerpt_separator: <!--more-->
+
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num/'
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+github: [metadata]
+
+author: endbot4023@gmail.com
+image: '/assets/images/default_blog_cover.jpg'
+asset_url: /assets
+
+github_url:
+  username: Tim232
+twitter:
+  username: joonseongi
