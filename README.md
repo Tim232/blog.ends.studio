@@ -3,6 +3,7 @@ blog.ends.studio
 ==============
 
 > 이 블로그는 [kakao.github.io](https://github.com/kakao/kakao.github.io) 의 오픈소스를 사용하였습니다.
+> 위 소스를 사용한 [prforest.github.io](https://github.com/prforest/prforest.github.io) 의 블로그도 참고하였습니다.
 
 ==============
 
