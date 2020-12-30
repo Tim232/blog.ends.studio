@@ -57,3 +57,7 @@ github_url:
 twitter:
   username: joonseongi
   
+# --- Comments --- #
+
+# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
+disqus: "blog-ends-studio"
