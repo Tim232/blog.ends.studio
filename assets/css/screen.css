@@ -420,10 +420,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 /* Comments */
 
 .disqus-comments {
+  max-width: 940px;
   margin-top: 1.875rem;
 }
 
 @media (min-width: 768px) {
+  
   .disqus-comments {
     margin-top: 2.5rem;
   }
