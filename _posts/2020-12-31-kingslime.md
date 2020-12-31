@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "어느새 2020년이 끝나가네요!"
-author: tim232
+title: "엔드봇의 신규(?) 캐릭터!"
+author: kingslime
 date: 2020-12-31
-tags: [뉴스레터, 웹사이트]
+tags: [잡담, 디스코드]
 comments: true
 ---
+
+안녕하셍오
 
 저는 킹뜰라임임니다
 
